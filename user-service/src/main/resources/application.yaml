@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: userEventSupplier
+      bindings:
+        userEventSupplier-out-0:
+          destination: user-event
