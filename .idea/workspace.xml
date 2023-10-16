@@ -4,68 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81cdad1-27ad-4b2c-9a33-bd1d5d2299db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/dto/OrderRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/dto/OrderResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/dto/PaymentRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/dto/PaymentResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/dto/ProductRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/dto/ProductResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/event/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/event/OTPGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/event/OrderEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/event/PaymentEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/event/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/option/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/option/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/option/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/status/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/status/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-dto-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/entity/PurchaseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/service/impl/OrderServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/service/publisher/OrderStatusPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/food/delivery/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/food/delivery/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/config/UserPublisherConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/config/UserStatusUpdateHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/config/event/UserEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/entity/CARD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/repository/CardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/service/impl/UserEventPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/service/impl/UserEventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/service/impl/UserServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-dto-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-dto-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-dto-service/src/main/java/org/food/delivery/CommonDtoServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/org/food/delivery/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/org/food/delivery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/org/food/delivery/PaymentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/org/food/delivery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/org/food/delivery/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/food/delivery/UserServiceApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="b81cdad1-27ad-4b2c-9a33-bd1d5d2299db" name="Changes" comment="MICROSERVICE-#2:User-Service Completed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,6 +86,15 @@
       <option name="presentableId" value="Default" />
       <updated>1696868123771</updated>
     </task>
+    <task id="LOCAL-00001" summary="MICROSERVICE-#2:User-Service Completed.">
+      <option name="closed" value="true" />
+      <created>1697487418001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697487418001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +107,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MICROSERVICE-#1: First Save." />
+    <MESSAGE value="MICROSERVICE-#2:User-Service Completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="MICROSERVICE-#2:User-Service Completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
